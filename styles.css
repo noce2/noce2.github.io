@@ -1,0 +1,7 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+
+img {
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+}

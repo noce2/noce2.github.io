@@ -4,13 +4,21 @@
         <title>Noce2's Portfolio Site</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="/styles.css">
     </head>
     <body>
         <div class="container">
             <h1>My Portfolio Page</h1>
             <h2>Frontend Projects</h2>
-                <a href="/calcapp/index.html">FCC Calculator SPA</a>
+                <div class="media">
+                    <a href="/calcapp/index.html"><img class="d-flex mr-3" src="/assets/images/calcapp.png" alt="Image of Calculator Application"></a>
+                    <div class="media-body">
+                        <h5 class="mt-0"><a href="/calcapp/index.html">FCC Calculator SPA</a></h5>
+                        Implementation of the FreeCodeCamp Calculator SPA. 
+                        Made with Angular 4, Webpack & &#10084;.
+                    </div>
+                </div>
+                
             <h2>Backend Projects</h2>
                 <a href="https://infinite-temple-75435.herokuapp.com/">FCC Timestamp Microservice</a>
         </div>
